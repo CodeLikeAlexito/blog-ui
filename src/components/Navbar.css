@@ -1,0 +1,40 @@
+/* Navbar.css */
+.navbar {
+    background-color: #333; /* Dark background color */
+    overflow: hidden;
+  }
+  
+  .brand {
+    float: left; /* Float the brand section to the left */
+    padding: 0 20px; /* Add some padding around the brand text */
+  }
+  
+  .brand a {
+    color: white; /* Text color */
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    text-decoration: none;
+  }
+  
+  .navbar ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    float: left; /* Float the list items to the left */
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white; /* Text color */
+    text-align: center;
+    padding: 14px 16px; /* Padding around each link */
+    text-decoration: none;
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  
+  .navbar li a:hover {
+    background-color: #555; /* Darker background color on hover */
+  }
+  

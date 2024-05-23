@@ -1,0 +1,77 @@
+/* Main container */
+.portfolio {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Section headings */
+  .portfolio h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Subheadings */
+  .portfolio h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  /* Paragraphs */
+  .portfolio p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  /* Divider */
+  .portfolio hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+  }
+  
+  /* Header section */
+  .portfolio .header {
+    margin-bottom: 30px;
+  }
+  
+  /* Experience section */
+  .portfolio .experience {
+    margin-bottom: 30px;
+  }
+  
+  /* Education section */
+  .portfolio .education {
+    margin-bottom: 30px;
+  }
+  
+  /* University projects section */
+  .portfolio .university-projects {
+    margin-bottom: 30px;
+  }
+  
+  /* Side projects section */
+  .portfolio .side-projects {
+    margin-bottom: 30px;
+  }
+  
+  /* Project name */
+  .portfolio .project-name {
+    font-weight: bold;
+  }
+  
+  /* Project description */
+  .portfolio .project-description {
+    margin-top: 5px;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 600px) {
+    .portfolio {
+      padding: 10px;
+    }
+  }
+  
